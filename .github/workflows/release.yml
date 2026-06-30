@@ -62,5 +62,4 @@ jobs:
           name: Release ${{ github.ref_name }}
           body_path: .github/release-template.md
           files: codex_plugin_repair_tool.exe
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_TOKEN }}
