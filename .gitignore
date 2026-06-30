@@ -1,0 +1,14 @@
+﻿target/
+*.exe
+build/
+*.pyc
+__pycache__/
+*.ico
+*.ps1
+*.png
+!icon.ico
+.DS_Store
+Thumbs.db
+
+debug_*.txt
+verify_fixes.py
